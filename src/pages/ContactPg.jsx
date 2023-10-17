@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const ContactPg = () => {
+
+  useEffect(() => {
+    document.title = 'Portfoilo | Contact Me'
+  }, [])
   return (
     <div>ContactPg</div>
   )
